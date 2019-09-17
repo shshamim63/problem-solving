@@ -5,6 +5,5 @@
 ---
 
 ## Supportive Sites
-1. [HackerRank](https://www.hackerrank.com/)
-2. [Repl.it](https://repl.it/repls)
-3. [LeetCode](https://leetcode.com/)
+1. [Repl.it](https://repl.it/repls)
+2. [LeetCode](https://leetcode.com/)
