@@ -17,16 +17,23 @@ TODO: Fill out this long description.
 - [License](#license)
 
 ## Background
+Some programming problem solution have been added using Javascript and Ruby. 
 
 ## Install
 
 ```
+To execute ruby solution you have to install ruby on your machine.
+To try the solution in js you need to install node on your environemnt
+
 ```
 
 ## Usage
 
-```
-```
+
+Ruby -> 
+1. To access the leetcode problem solution `cd Leetcode`
+2. To execute a specific file `ruby *containing ruby filename`
+
 
 ## Maintainers
 
