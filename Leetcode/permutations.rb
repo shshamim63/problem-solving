@@ -17,7 +17,7 @@ end
 def permute(nums)
     res = []
     dfs(nums, [], res)
-    return res
+    res
 end
 
 input = [1,2,3]

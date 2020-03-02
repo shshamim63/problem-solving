@@ -18,7 +18,7 @@ def longest_valid_parentheses(s)
             stk.push(i)
         end
     end
-    return maxL
+    maxL
 end
 input = ")()())"
 puts longest_valid_parentheses(input)

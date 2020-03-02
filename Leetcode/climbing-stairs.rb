@@ -11,5 +11,5 @@ def climb_stairs(n)
     for i in 2..n
         dp[i] = dp[i-1] + dp[i- 2]
     end
-    return dp[n]
+    dp[n]
 end

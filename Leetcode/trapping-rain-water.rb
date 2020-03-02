@@ -14,7 +14,7 @@ def trap(height)
         water = water_container - height[i]
         total_water += water
     end
-    return total_water
+    total_water
 end
 
 input = [0,1,0,2,1,0,1,3,2,1,2,1]

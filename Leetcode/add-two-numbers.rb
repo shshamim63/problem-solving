@@ -24,5 +24,5 @@ def add_two_numbers(l1, l2)
     if carry > 0
         cur.next = ListNode.new(carry)
     end
-    return dummy.next
+    dummy.next
 end

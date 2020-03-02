@@ -13,7 +13,7 @@ def can_jump(nums)
         end
         m = [m, (idx+val)].max
     end
-    return true
+    true
 end
 
 print can_jump([2,3,1,1,4])

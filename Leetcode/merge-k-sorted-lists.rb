@@ -22,7 +22,7 @@ def merge_two_lists(l1, l2)
     else
         temp.next = l1
     end
-    return ans.next
+    ans.next
 end
 def merge_k_lists(lists)
     return lists[0] if lists.size < 2
@@ -30,5 +30,5 @@ def merge_k_lists(lists)
     for i in 1..lists.size
         first = merge_two_lists(first, lists[i])
     end
-    return first
+    first
 end

@@ -19,7 +19,7 @@ def min_path_sum(grid)
             grid[i][j] += [grid[i-1][j], grid[i][j-1]].min
         end
     end
-    return grid[-1][-1]  
+    grid[-1][-1]  
 end
 input = [
             [1,3,1],

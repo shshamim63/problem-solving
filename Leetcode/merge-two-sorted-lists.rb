@@ -22,5 +22,5 @@ def merge_two_lists(l1, l2)
     else
         cur.next = l1
     end
-    return dummy.next
+    dummy.next
 end
