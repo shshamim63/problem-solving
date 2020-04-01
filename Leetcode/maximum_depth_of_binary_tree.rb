@@ -10,5 +10,5 @@ def max_depth(root)
     return 1 if root.left.nil? and root.right.nil?
     l = max_depth(root.left)
     r = max_depth(root.right)
-    return 1 + (l > r ? l : r)
+    1 + (l > r ? l : r)
 end
