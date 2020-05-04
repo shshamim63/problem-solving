@@ -1,7 +1,7 @@
 =begin
-PROBLEM DESCRIPTION:(https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solution/)
+PROBLEM DESCRIPTION:(https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
-Runtime: 36 ms
+Runtime: 40 ms
 Memory Usage: 10 MB
 =end
 
