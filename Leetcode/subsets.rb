@@ -6,15 +6,15 @@ Memory Usage: 9.5 MB
 =end
 
 def subsets(nums)
-    result = []
-    result.push([])
-    nums.each do |n|
-        size = result.length
-        for i in 0...size
-            subset = result[i].dup
-            subset.push(n)
-            result.push(subset)
-        end
+  result = []
+  result.push([])
+  nums.each do |n|
+    size = result.length
+    for i in 0...size
+      subset = result[i].dup
+      subset.push(n)
+      result.push(subset)
     end
-    result
+  end
+  result
 end

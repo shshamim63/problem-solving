@@ -7,8 +7,8 @@ Memory Usage: 10 MB
 
 
 def single_number(nums)
-    for i in 1...nums.length
-        nums[0] ^= nums[i]
-    end
-    nums[0]
+  for i in 1...nums.length
+    nums[0] ^= nums[i]
+  end
+  nums[0]
 end

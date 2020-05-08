@@ -6,14 +6,14 @@ Memory Usage: 10 MB
 =end
 
 def max_profit(prices)
-    profit = 0
-    buy = 1000000000
-    for i in 0...prices.length
-        if prices[i] < buy
-            buy = prices[i]
-        else
-            profit = [profit,(prices[i]-buy)].max
-        end
+  profit = 0
+  buy = 1000000000
+  for i in 0...prices.length
+    if prices[i] < buy
+      buy = prices[i]
+    else
+      profit = [profit,(prices[i]-buy)].max
     end
-    profit
+  end
+  profit
 end
